@@ -53,7 +53,7 @@ $(document).ready(function(){
 
   var playerRoll = function() {
     var dice = game.rollDice();
-    var output = "&#x268" + (dice-1) + ";";
+    var output = "DICEBOX:" + (dice-1) + ";";
      $("#displaydice").html(output);
      $("#dice").text(dice);
      changePlayerAndRefreshScores();
