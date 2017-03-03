@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/styles.css" rel="stylesheet">
+  <title>Pig Dice</title>
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Pig Dice</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" id="main">
+      <div class="wrapper">
+        <div class="col-md-4">
+          <h2 id="player1">Player 1</h2>
+          <h3>Score: <span id="player1score"></span></h3>
+          <h3>Wins: <span id="player1wins"></span></h3>
+
+          <div id="player1buttons">
+            <button id="roll" class="btn btn-large btn-danger">Roll</button>
+            <button id="hold" class="btn btn-large btn-success">Hold</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Roll: <span id = "dice"></span></h2>
+          <span id="displaydice"></span>
+          <h3>Current score: <span id="current"></span></h3>
+        </div>
+
+        <div class="col-md-4">
+          <h2 id="player2">Player 2</h2>
+          <h3>Score: <span id="player2score"></span></h3>
+          <h3>Wins: <span id="player2wins"></span></h3>
+          <div id="player2buttons">
+            <button id="roll" class="btn btn-large btn-danger">Roll</button>
+            <button id="hold" class="btn btn-large btn-success">Hold</button>
+          </div>
+        </div>
+        <div class="instructions">
+          <h4>Player one roll: "Z"</h4>
+          <h4>Player two roll: "P"</h4>
+          <h4>Hold:            Space</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
