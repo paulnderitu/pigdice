@@ -1,14 +1,17 @@
 .jumbotron0 {
+  height: 160px;
+  margin-bottom: -20px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #8cc1c1;
+}
+
+.jumbotron {
+  margin-top: 0px;
   width: 100%;
   padding-left: 10px;
   min-height: 100vh;
   color: white;
   background-image: url(../img/pigdice2.jpg);
   background-repeat: no-repeat;
-}
-
-.jumbotron {
-  margin-bottom: auto;
-  text-align: center;
-  background-color: #8cc1c1;
 }

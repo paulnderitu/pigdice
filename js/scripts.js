@@ -37,7 +37,7 @@ $(document).ready(function(){
     var player = game.activePlayer;
     if (player === 1) {
       $("h2#player1").css('color', 'green');
-      $("h2#player2").css('color', 'grey');
+      $("h2#player2").css('color', 'purple');
       $("#player2buttons").hide();
       $("#player1buttons").show();
     } else {
